@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Typography/Typography.test.tsx">
-    <testCase name="Renders typography" duration="73"/>
-  </file>
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/organisms/Card/Card.test.tsx">
-    <testCase name="Organisms/Card check image" duration="41"/>
-    <testCase name="Organisms/Card check timeToRead" duration="25"/>
-    <testCase name="Organisms/Card check addtolibrarybutton" duration="28"/>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/SearchBar/SearchBar.test.tsx">
+    <testCase name="Molecules/SearchBar render component" duration="144"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/ExtendedNav/ExtendedNav.test.tsx">
-    <testCase name="Molecules/ExtendedNav are 18 labels rendering" duration="321"/>
+    <testCase name="Molecules/ExtendedNav are 18 labels rendering" duration="301"/>
+  </file>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/organisms/Card/Card.test.tsx">
+    <testCase name="Organisms/Card check image" duration="48"/>
+    <testCase name="Organisms/Card check timeToRead" duration="32"/>
+    <testCase name="Organisms/Card check addtolibrarybutton" duration="27"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/organisms/Tab/TabPanel.test.tsx">
-    <testCase name="Tab panel tests Render two tabs and call changeHandler" duration="213"/>
+    <testCase name="Tab panel tests Render two tabs and call changeHandler" duration="173"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/organisms/Header/Header.test.tsx">
-    <testCase name="Header tests Render header" duration="862"/>
+    <testCase name="Header tests Render header" duration="711"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/App.test.tsx">
-    <testCase name="renders main App" duration="556"/>
-  </file>
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/Banner/Banner.test.tsx">
-    <testCase name="Molecules/Banner renders Banner component" duration="205"/>
-  </file>
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/TimeToRead/TimeToRead.test.tsx">
-    <testCase name="Molecules/TimeToRead render component" duration="48"/>
-  </file>
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Input/Input.test.tsx">
-    <testCase name="Atoms renders input field" duration="128"/>
-  </file>
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/SearchBar/SearchBar.test.tsx">
-    <testCase name="Molecules/SearchBar render component" duration="118"/>
+    <testCase name="renders main App" duration="494"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/organisms/Footer/Footer.test.tsx">
-    <testCase name="Organisms/Footer render component" duration="142"/>
+    <testCase name="Organisms/Footer render component" duration="131"/>
   </file>
-  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Icons/Icons.test.tsx">
-    <testCase name="renders Icon" duration="33"/>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/TimeToRead/TimeToRead.test.tsx">
+    <testCase name="Molecules/TimeToRead render component" duration="47"/>
+  </file>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/Banner/Banner.test.tsx">
+    <testCase name="Molecules/Banner renders Banner component" duration="257"/>
+  </file>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Input/Input.test.tsx">
+    <testCase name="Atoms renders input field" duration="132"/>
+  </file>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Typography/Typography.test.tsx">
+    <testCase name="Renders typography" duration="75"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Logo/Logo.test.tsx">
-    <testCase name="Renders logo" duration="31"/>
+    <testCase name="Renders logo" duration="27"/>
+  </file>
+  <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Icons/Icons.test.tsx">
+    <testCase name="renders Icon" duration="22"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/molecules/NoOfReads/NoOfReads.test.tsx">
-    <testCase name="Molecules/NoOfReads render component" duration="39"/>
+    <testCase name="Molecules/NoOfReads render component" duration="35"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Images/Image.test.tsx">
-    <testCase name="renders Image" duration="29"/>
+    <testCase name="renders Image" duration="27"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/ProgressBar/ProgressBar.test.tsx">
-    <testCase name="renders progress bar" duration="24"/>
+    <testCase name="renders progress bar" duration="40"/>
   </file>
   <file path="/home/bhavS/Blinkist App/blinkist-app/src/components/atoms/Avatar/Avatar.test.tsx">
-    <testCase name="renders Avatar" duration="21"/>
+    <testCase name="renders Avatar" duration="22"/>
   </file>
 </testExecutions>
