@@ -15,16 +15,6 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
-        with:
-          args: >
-            -Dsonar.organization=bhavani-zemoso
-            -Dsonar.projectkey=bhavani-Zemoso_blinkist-app-2
-            -Dsonar.sources=./src
-            -Dsonar.exclusions=**/node_modules/**,**/*.spec.ts,**/*.stories.tsx,**/src/index.tsx,**/src/App.tsx,**/src/reportWebVitals.ts,**/src/services/**,**/src/components/pages/**,**/src/Themes/**, **/src/assets/**, **/src/components/templates/**
-            -Dsonar.tests=./src
-            -Dsonar.test.inclusions=**/*.test.tsx,**/*.test.ts
-            -Dsonar.test.exclusions=**/*.stories.tsx
-            -Dsonar.javascript.lcov.reportPaths=./coverage/lcov.info 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
